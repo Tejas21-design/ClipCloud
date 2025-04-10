@@ -1,12 +1,42 @@
-# React + Vite
+# 📎 ClipCloud
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ClipCloud is a modern Pastebin-inspired web app built with React and TailwindCSS that lets users create, share, and manage text snippets or code blocks easily — all in a sleek, shareable format.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 🔍 **Search Pastes** — Instantly filter pastes by title
+- 📝 **Create & Edit** — Add title and content with a clean UI
+- 👁️ **View Mode** — Read-only view with formatted content
+- 📅 **Timestamps** — All pastes show their creation date
+- 🔗 **Copy & Share** — Copy content or share link via social platforms
+- 🗑️ **Delete Functionality** — Remove pastes you no longer need
+- 💾 **Redux Integration** — Paste state managed via Redux store
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+
+## 🚀 Live Demo
+
+[👉 View ClipCloud Live](https://clip-cloud-blond.vercel.app/)
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React, TailwindCSS
+- **State Management:** Redux Toolkit
+- **Routing:** React Router DOM
+- **Notifications:** React Hot Toast
+- **Icons:** Lucide React, React Share
+
+---
+
+## 🧩 How to Run Locally
+
+```bash
+git clone https://github.com/your-username/clipcloud.git
+cd clipcloud
+npm install
+npm run dev
