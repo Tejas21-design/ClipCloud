@@ -4,7 +4,7 @@ import { TwitterShareButton, TwitterIcon, TelegramShareButton, FacebookShareButt
 import toast from 'react-hot-toast';
 
 const ShareModal = ({ isOpen, onClose, pasteId }) => {
-  const shareLink = `https://www.codehelp.in/pastes/${pasteId}`;
+  const shareLink = `https://clip-cloud-blond.vercel.app/pastes/${pasteId}`;
 
   const copyToClipboard = () => {
     navigator.clipboard.writeText(shareLink);
